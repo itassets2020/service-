@@ -1,0 +1,72 @@
+﻿<Window x:Class="Service_Center.Technic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Техника" Height="600" Width="800" Loaded="Window_Loaded" Background="Tan" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Label Name="Search_1" Content="Поиск:" Grid.Row="8" FontSize="16" FontFamily="Times New Roman"></Label>
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="12"/>
+
+        <Label Name="lbl_Technicue" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="5" Content="Техника клиентов" HorizontalContentAlignment="Center" FontSize="24" VerticalAlignment="Center" FontFamily="Thimes New Roman"/>
+        <DataGrid Name="dgTechnic" FontFamily="Thimes New Roman" ColumnWidth="auto" AutoGenerateColumns="True" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="11" Grid.RowSpan="4" AutoGeneratingColumn="dgTechnic_AutoGeneratingColumn"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Name_of_Technic" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Content="Название техники:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="30" FontFamily="Thimes New Roman" Name="tb_Name_of_Technic" Background="LightGray" Text="{Binding SelectedItem.Name_of_Technic, ElementName=dgTechnic}" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Name_of_Technic_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Model_of_Technic" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Content="Название модели:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox MaxLength="30" FontFamily="Thimes New Roman" Name="tb_Model_of_Technic" Background="LightGray" Text="{Binding SelectedItem.Model_of_Technic, ElementName=dgTechnic}" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Model_of_Technic_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Info_of_Error" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Content="Описание неисправности:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="30" FontFamily="Thimes New Roman" Name="tb_Info_of_Error" Background="LightGray" Text="{Binding SelectedItem.Info_of_Error, ElementName=dgTechnic}" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Info_of_Error_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Client" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="3" Content="Выбор клиента:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cbClient" SelectedValue="{Binding SelectedItem.Client_Info, ElementName=dgTechnic}" IsReadOnly="True" Grid.Column="9" Grid.Row="5" Grid.ColumnSpan="3" Height="30"> </ComboBox>
+
+        <TextBox Name="tb_Search" Background="LightGray" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma"/>
+        <Button ToolTip="Добавить" FontFamily="Tahoma" Name="bt_Insert_Technic" Content= "Добавить технику" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Insert_Technic_Click"/>
+        <Button ToolTip="Изменить" FontFamily="Tahoma" Name="bt_Update_Technic" Content= "Изменить технику" Grid.Column="5" Grid.Row="9" Grid.ColumnSpan="3" Height="30" Click="bt_Update_Technic_Click"/>
+        <Button ToolTip="Удалить" FontFamily="Tahoma" Name="bt_Delete_Technic" Content= "Удалить технику" Grid.Column="10" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Delete_Technic_Click"/>
+        <Button ToolTip="Поиск" FontFamily="Tahoma" Name="bt_Search" Content= "Поиск" Grid.Column="5" Grid.Row="8" Grid.ColumnSpan="3" Height="30" Click="bt_Search_Click"/>
+        <Button ToolTip="Сбросить" FontFamily="Tahoma" Name="bt_Cancel" Content= "Сбросить" Grid.Column="10" Grid.Row="8" Grid.ColumnSpan="2" Height="30" Click="bt_Cancel_Click"/>
+        <Button ToolTip="Вернуться в главное меню" Name="bt_Back" Content= "Главное меню" Grid.Column="5" Grid.Row="10" Grid.ColumnSpan="3" Height="30" Click="Bt_Back_Click"/>
+
+
+    </Grid>
+
+
+
+
+</Window>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="Service_Center.Connection_Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Настройка подключения к источнику данных" Height="200" Width="500" WindowStartupLocation="CenterScreen" Background="Tan" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Label FontFamily="Times New Roman" Name="lbl_Documents" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="9" Content="Название сервера" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center"/>
+        <ComboBox Name="cb_Servers"  IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="9" Height="30"/>
+
+        <Label FontFamily="Times New Roman" Name="lbl_bd" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="9" Content="Выбор БД" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center"/>
+        <ComboBox Name="cb_bd"  IsReadOnly="True" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="9" Height="30"></ComboBox>
+
+        <Button Name="test"  Click="test_Click" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Height="30" Content="Проверка"></Button>
+        <Button Name="test1" Content="Подключится" Grid.Row="4" Height="30" Grid.Column="7" Grid.ColumnSpan="3" VerticalAlignment="Bottom" Click="test1_Click"  />
+
+    </Grid>
+</Window>

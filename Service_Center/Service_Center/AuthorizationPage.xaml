@@ -1,0 +1,50 @@
+﻿<Window x:Class="Service_Center.AuthorizationPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="200" Width="500" Background="Tan" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+
+        <Label Name="lbl_Авторизация" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="3" Content="Авторизация" HorizontalContentAlignment="Center" FontSize="14" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Label Name="lbl_Login" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="3" Content="Логин" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Label Name="lbl_Password" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="3" Content="Пароль" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="10"/>
+
+        <PasswordBox Name="tbEnterLogin" Grid.Row="2" VerticalAlignment="Center" Grid.ColumnSpan="11" />
+        <PasswordBox Name="tbEnterPassword" Grid.Row="4" VerticalAlignment="Center" Grid.ColumnSpan="11"/>
+
+        <Button ToolTip="Вход в ИС" FontFamily="Tahoma" Name="bt_Login" Content= "Войти" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="4" Height="25" Click="Bt_Login_Click" HorizontalAlignment="Left" Margin="0.333,0,0,0.667" Width="134"/>
+        <Button ToolTip="Возвращение к окну атунтификации" FontFamily="Tahoma" Name="bt_Back" Content= "Назад" Grid.Column="7" Grid.Row="5" Grid.ColumnSpan="3" Height="25" Click="bt_Back_Click"/>
+        <Button ToolTip="Нажмите чтобы войти, как гость" FontFamily="Tahoma" Name="bt_Guest" Content= "Гость" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="4" Height="25" HorizontalAlignment="Left" Width="134" Click="bt_Guest_Click"/>
+
+    </Grid>
+</Window>

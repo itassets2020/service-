@@ -1,0 +1,67 @@
+﻿<Window x:Class="Service_Center.Position"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Должности" Height="600" Width="800" Background="Tan" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Label Name="Search_1" Content="Поиск:" Grid.Row="8" FontSize="16" FontFamily="Times New Roman"></Label>
+
+        <Label Name="lbl_Position" Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="3" Content="Должности" HorizontalContentAlignment="Center" FontSize="24" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="12"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Name_of_Position" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Content="Название должности:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  FontFamily="Tahoma" MaxLength="30" Name="tb_Name_of_Position" Background="LightGray" Text="{Binding SelectedItem.Name_of_Position, ElementName=dgPosition}" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="3" Height="30" PreviewTextInput="tb_Name_of_Position_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Salaty_of_Position" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Content="Оклад:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox FontFamily="Tahoma" MaxLength="32" Name="tb_Salaty_of_Position" Background="LightGray" Text="{Binding SelectedItem.Salaty_of_Position, ElementName=dgPosition}" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3" Height="30" PreviewTextInput="tb_Salaty_of_Position_PreviewTextInput"/>
+
+
+
+        <DataGrid Name="dgPosition" ColumnWidth="auto" AutoGenerateColumns="True" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="11" Grid.RowSpan="4" AutoGeneratingColumn="dgPosition_AutoGeneratingColumn"/>
+        <Button ToolTip="Вернуться в главное меню" Name="bt_Back" Content= "Главное меню" Grid.Column="5" Grid.Row="10" Grid.ColumnSpan="3" Height="30" Click="Bt_Back_Click"/>
+
+        <TextBox Name="tb_Search" Background="LightGray" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma"/>
+        <Button ToolTip="Добавить" FontFamily="Tahoma" Name="bt_Insert_Position" Content= "Добавить должность" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Insert_Service_Click"/>
+        <Button ToolTip="Изменить" FontFamily="Tahoma" Name="bt_Update_Position" Content= "Изменить должность" Grid.Column="5" Grid.Row="9" Grid.ColumnSpan="3" Height="30" Click="bt_Update_Position_Click"/>
+        <Button  ToolTip="Удалить" FontFamily="Tahoma" Name="bt_Delete_Position" Content= "Удалить должность" Grid.Column="10" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Delete_Position_Click"/>
+        <Button ToolTip="Поиск" FontFamily="Tahoma" Name="bt_Search" Content= "Поиск" Grid.Column="5" Grid.Row="8" Grid.ColumnSpan="3" Height="30" Click="bt_Search_Click"/>
+        <Button ToolTip="Сбросить" FontFamily="Tahoma" Name="bt_Cancel" Content= "Сбросить" Grid.Column="10" Grid.Row="8" Grid.ColumnSpan="2" Height="30" Click="bt_Cancel_Click"/>
+
+
+
+
+    </Grid>
+</Window>

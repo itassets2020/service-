@@ -1,0 +1,69 @@
+﻿<Window x:Class="Service_Center.Check"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Товарные чеки" Height="600" Width="800" Background="Tan" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="12"/>
+        <Label Name="lbl_Technicue" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="5" Content="Товарные чеки" HorizontalContentAlignment="Center" FontSize="24" VerticalAlignment="Center" FontFamily="Thimes New Roman"/>
+
+        <DataGrid Name="dgCheck" ColumnWidth="auto" AutoGenerateColumns="True" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="11" Grid.RowSpan="4" AutoGeneratingColumn="dgCheck_AutoGeneratingColumn"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Number_of_Check" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Content="Номер чека:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="30" FontFamily="Thimes New Roman" Name="tb_Number_of_Check" Background="LightGray" Text="{Binding SelectedItem.Number_of_Check, ElementName=dgCheck}" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Height="30"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Client" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="3" Content="Выбор клиента:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cbClient" SelectedValue="{Binding SelectedItem.Client_ID, ElementName=dgCheck}" IsReadOnly="True" Grid.Column="9" Grid.Row="5" Grid.ColumnSpan="3" Height="30"></ComboBox>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Staff" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Content="Выбор сотрудника:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cbStaff" SelectedValue="{Binding SelectedItem.Staff_ID, ElementName=dgCheck}" IsReadOnly="True" Grid.Column="4" Grid.Row="6" Grid.ColumnSpan="2" Height="30"></ComboBox>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Service" Grid.Row="6" Grid.Column="7" Grid.ColumnSpan="3" Content="Выбор улсуги:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cbService" SelectedValue="{Binding SelectedItem.Service_ID, ElementName=dgCheck}" IsReadOnly="True" Grid.Column="9" Grid.Row="6" Grid.ColumnSpan="2" Height="30"></ComboBox>
+
+
+        <Label Name="Search_1" Content="Поиск:" Grid.Row="8" FontSize="16" FontFamily="Times New Roman"></Label>
+        <TextBox Name="tb_Search" Background="LightGray" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma"/>
+        <Button ToolTip="Добавить" FontFamily="Tahoma" Name="bt_Insert_Check" Content= "Добавить чек" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Insert_Check_Click"/>
+        <Button ToolTip="Изменить" FontFamily="Tahoma" Name="bt_Update_Check" Content= "Изменить чек" Grid.Column="5" Grid.Row="9" Grid.ColumnSpan="3" Height="30" Click="bt_Update_Check_Click"/>
+        <Button ToolTip="Удалить" FontFamily="Tahoma" Name="bt_Delete_Check" Content= "Удалить чек" Grid.Column="10" Grid.Row="9" Grid.ColumnSpan="2" Height="30" HorizontalAlignment="Right" Margin="0,11" Width="122" Click="bt_Delete_Check_Click"/>
+        <Button ToolTip="Поиск" FontFamily="Tahoma" Name="bt_Search" Content= "Поиск" Grid.Column="5" Grid.Row="8" Grid.ColumnSpan="3" Height="30" Click="bt_Search_Click"/>
+        <Button ToolTip="Сбросить" FontFamily="Tahoma" Name="bt_Cancel" Content= "Сбросить" Grid.Column="10" Grid.Row="8" Grid.ColumnSpan="2" Height="30" Click="bt_Cancel_Click"/>
+        <Button ToolTip="Выйти в главное меню" Name="bt_Back" Content= "Главное меню" Grid.Column="5" Grid.Row="10" Grid.ColumnSpan="3" Height="30" Click="Bt_Back_Click"/>
+
+    </Grid>
+</Window>

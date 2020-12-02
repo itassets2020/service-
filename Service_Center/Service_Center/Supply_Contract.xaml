@@ -1,0 +1,69 @@
+﻿<Window x:Class="Service_Center.Supply_Contract"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Договоры поставки" Height="600" Width="800" Background="Tan" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Label Name="Search_1" Content="Поиск:" Grid.Row="8" FontSize="16" FontFamily="Times New Roman"></Label>
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="10"/>
+
+        <DataGrid FontFamily="Tahoma" Name="dg_Supply_Contract" ColumnWidth="auto" AutoGenerateColumns="True" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="9" Grid.RowSpan="4" AutoGeneratingColumn="dg_Supply_Contract_AutoGeneratingColumn"/>
+        <Label Name="lbl_Supply_Contract" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="5" Content="Договоры поставки" HorizontalContentAlignment="Center" FontSize="20" VerticalAlignment="Center" FontFamily="Tahoma"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Name_of_Contract" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Content="Название контракта:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox MaxLength="50" FontFamily="Tahoma" Name="tb_Name_of_Contract" Background="LightGray" Text="{Binding SelectedItem.Name_of_Contract, ElementName=dg_Supply_Contract}" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Name_of_Contract_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Price_of_Contract" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Content="Цена контракта:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox FontFamily="Tahoma" Name="tb_Price_of_Contract" Background="LightGray" Text="{Binding SelectedItem.Price_of_Contract, ElementName=dg_Supply_Contract}" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Price_of_Contract_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Name_of_Component" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Content="Название компонента:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox MaxLength="30" FontFamily="Tahoma" Name="tb_Name_of_Component" Background="LightGray" Text="{Binding SelectedItem.Name_of_Component, ElementName=dg_Supply_Contract}" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2" Height="30"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Name_of_Technic" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="3" Content="Выбор техники:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cb_Name_of_Technic" SelectedValue="{Binding SelectedItem.ID_Technic, ElementName=dg_Supply_Contract }" IsReadOnly="True" Grid.Column="9" Grid.Row="5" Grid.ColumnSpan="3" Height="30"></ComboBox>
+
+
+
+
+
+        <Button ToolTip="Добавить" FontFamily="Tahoma" Name="bt_Insert_Supply_Contract" Content= "Добавить договор" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Insert_Supply_Contract_Click"/>
+        <Button ToolTip="Изменить" FontFamily="Tahoma" Name="bt_Update_Supply_Contract" Content= "Изменить договор" Grid.Column="4" Grid.Row="9" Grid.ColumnSpan="3" Height="30" Click="bt_Update_Supply_Contract_Click"/>
+        <Button ToolTip="Удалить" FontFamily="Tahoma" Name="bt_Delete_Supply_Contract" Content= "Удалить договор" Grid.Column="8" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Delete_Supply_Contract_Click"/>
+        <Button ToolTip="Поиск" FontFamily="Tahoma" Name="bt_Search" Content= "Поиск" Grid.Column="4" Grid.Row="8" Grid.ColumnSpan="3" Height="30" Click="bt_Search_Click"/>
+        <Button ToolTip="Сбросить" FontFamily="Tahoma" Name="bt_Cancel" Content= "Сбросить" Grid.Column="8" Grid.Row="8" Grid.ColumnSpan="2" Height="30" Click="bt_Cancel_Click"/>
+        <Button ToolTip="Вернуться в главное меню" FontFamily="Tahoma" Name="bt_Back" Content= "Главное меню" Grid.Column="4" Grid.Row="10" Grid.ColumnSpan="3" Height="30" Click="Bt_Back_Click"/>
+        <TextBox Name="tb_Search" Background="LightGray" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma"/>
+
+    </Grid>
+</Window>

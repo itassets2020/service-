@@ -1,0 +1,89 @@
+﻿<Window x:Class="Service_Center.Staff"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Сотрудники" Height="600" Width="800" Background="Tan" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="12"/>
+
+        <Label Name="lbl_Staff" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="5" Content="Сотрудники" HorizontalContentAlignment="Center" FontSize="24" VerticalAlignment="Center" FontFamily="Thimes New Roman"/>
+        <DataGrid Name="dgStaff" ColumnWidth="auto" AutoGenerateColumns="True" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="11" Grid.RowSpan="4" AutoGeneratingColumn="dgStaff_AutoGeneratingColumn"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Surname_of_Staff" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Content="Фамилия сотрудника:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="30" FontFamily="Thimes New Roman" Name="tb_Surname_of_Staff" Background="LightGray" Text="{Binding SelectedItem.Surname_of_Staff, ElementName=dgStaff}" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Surname_of_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Name_of_Staff" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Content="Имя сотрудника:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="30" FontFamily="Thimes New Roman" Name="tb_Name_of_Staff" Background="LightGray" Text="{Binding SelectedItem.Name_of_Staff, ElementName=dgStaff}" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Name_of_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Middle_Name_of_Staff" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Content="Отчество сотрудника:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="30" FontFamily="Thimes New Roman" Name="tb_Middle_Name_of_Staff" Background="LightGray" Text="{Binding SelectedItem.Middle_Name_of_Staff, ElementName=dgStaff}" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Middle_Name_of_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Date_of_Birth_Staff" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="3" Content="Дата рождения:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <DatePicker FontFamily="Thimes New Roman" Name="dp_Date_of_Birth_Staff" Background="LightGray" Text="{Binding SelectedItem.Date_of_Birth_Staff, ElementName=dgStaff}" Grid.Row="8" Grid.Column="4" Grid.ColumnSpan="2" Height="30" PreviewTextInput="dp_Date_of_Birth_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Sires_Document_Staff" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="3" Content="Сирия паспорта:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="4" FontFamily="Thimes New Roman" Name="tb_Sires_Document_Staff" Background="LightGray" Text="{Binding SelectedItem.Sires_Document_Staff, ElementName=dgStaff}" Grid.Row="5" Grid.Column="9" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Sires_Document_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Number_Document_Staff" Grid.Row="6" Grid.Column="7" Grid.ColumnSpan="3" Content="Номер паспорта:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="6" FontFamily="Thimes New Roman" Name="tb_Number_Document_Staff" Background="LightGray" Text="{Binding SelectedItem.Number_Document_Staff, ElementName=dgStaff}" Grid.Row="6" Grid.Column="9" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_Number_Document_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_LoginS" Grid.Row="7" Grid.Column="7" Grid.ColumnSpan="3" Content="Логин:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="18" FontFamily="Thimes New Roman" Name="tb_LoginS" Background="LightGray" Text="{Binding SelectedItem.LoginS, ElementName=dgStaff}" Grid.Row="7" Grid.Column="9" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_LoginS_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_PasswordS" Grid.Row="8" Grid.Column="7" Grid.ColumnSpan="3" Content="Пароль:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox  MaxLength="18" FontFamily="Thimes New Roman" Name="tb_PasswordS" Background="LightGray" Text="{Binding SelectedItem.PasswordS, ElementName=dgStaff}" Grid.Row="8" Grid.Column="9" Grid.ColumnSpan="2" Height="30" PreviewTextInput="tb_PasswordS_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Name_of_Position" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Content="Выбор должности:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cbName_of_Position" SelectedValue="{Binding SelectedItem.Position_ID, ElementName=dgStaff}" IsReadOnly="True" Grid.Column="4" Grid.Row="9" Grid.ColumnSpan="2" Height="30"></ComboBox>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Name_of_Role" Grid.Row="9" Grid.Column="7" Grid.ColumnSpan="3" Content="Выбор роли:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cbName_of_Role" SelectedValue="{Binding SelectedItem.Role_ID, ElementName=dgStaff}" IsReadOnly="True" Grid.Column="9" Grid.Row="9" Grid.ColumnSpan="2" Height="30"></ComboBox>
+
+
+        <TextBox Name="tb_Search" Background="LightGray" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma"/>
+        <Label Name="Search_1" Content="Поиск:" Grid.Row="10" FontSize="16" FontFamily="Times New Roman"></Label>
+        <Button ToolTip="Добавить" FontFamily="Tahoma" Name="bt_Insert_Staff" Content= "Добавить сотрудника" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="2" Height="30" Click="bt_Insert_Client_Click"/>
+        <Button ToolTip="Изменить" FontFamily="Tahoma" Name="bt_Update_Staff" Content= "Изменить сотрудника" Grid.Column="5" Grid.Row="11" Grid.ColumnSpan="3" Height="30" Click="bt_Update_Client_Click"/>
+        <Button ToolTip="Удалить" FontFamily="Tahoma" Name="bt_Delete_Staff" Content= "Удалить сотрудника" Grid.Column="10" Grid.Row="11" Grid.ColumnSpan="2" Height="30" Click="bt_Delete_Client_Click"/>
+        <Button ToolTip="Поиск" FontFamily="Tahoma" Name="bt_Search" Content= "Поиск" Grid.Column="5" Grid.Row="10" Grid.ColumnSpan="3" Height="30" Click="bt_Search_Click"/>
+        <Button ToolTip="Сбросить" FontFamily="Tahoma" Name="bt_Cancel" Content= "Сбросить" Grid.Column="10" Grid.Row="10" Grid.ColumnSpan="2" Height="30" Click="bt_Cancel_Click"/>
+
+        <Button ToolTip="Вернуться в главное меню" Name="bt_Back" Content= "Главное меню" Grid.Column="5" Grid.Row="13" Grid.ColumnSpan="3" Height="30" Click="Bt_Back_Click"/>
+
+    </Grid>
+</Window>

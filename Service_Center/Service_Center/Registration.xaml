@@ -1,0 +1,65 @@
+﻿<Window x:Class="Service_Center.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Регистрация" Height="600" Width="800" Background="Tan" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Label Name="lbl_Regestration" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="3" Content="Регестрация" HorizontalContentAlignment="Center" FontSize="22" VerticalAlignment="Center" FontFamily="Tahoma"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Name_of_Staff" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Content="Имя сотрудника:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox FontFamily="Tahoma" Name="tb_Name_of_Staff" Background="LightGray" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" Height="30" MaxLength="30" PreviewTextInput="tb_Name_of_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Surname_of_Staff" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Content="Фамилия сотрудника:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox FontFamily="Tahoma" Name="tb_Surname_of_Staff" Background="LightGray" Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="2" Height="30" MaxLength="30" PreviewTextInput="tb_Surname_of_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Middle_Name_of_Staff" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Content="Отчество сотрудника:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox FontFamily="Tahoma" Name="tb_Middle_Name_of_Staff" Background="LightGray" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" Height="30" MaxLength="30" PreviewTextInput="tb_Middle_Name_of_Staff_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_LoginS" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Content="Логин:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox FontFamily="Tahoma" Name="tb_LoginS" Background="LightGray" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" Height="30" MaxLength="18" PreviewTextInput="tb_LoginS_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_PasswordS" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Content="Пароль:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox FontFamily="Tahoma" Name="tb_PasswordS" Background="LightGray" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Height="30" MaxLength="18" PreviewTextInput="tb_PasswordS_PreviewTextInput"/>
+
+
+
+
+
+
+
+        <Button ToolTip="Зарегестрировать" FontFamily="Tahoma" Name="bt_Regestration" Content= "Зарегестрировать" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="3" Height="30" Click="bt_Regestration_Click"/>
+        <Button ToolTip="Вернуться к окну аутентификации" FontFamily="Tahoma" Name="bt_Back" Content= "Назад" Grid.Column="7" Grid.Row="9" Grid.ColumnSpan="3" Height="30" Click="bt_Back_Click"/>
+
+    </Grid>
+</Window>

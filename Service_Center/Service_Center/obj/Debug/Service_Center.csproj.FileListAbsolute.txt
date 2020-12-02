@@ -1,0 +1,163 @@
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\bin\Debug\Service_Center.exe.config
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\bin\Debug\Service_Center.exe
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\bin\Debug\Service_Center.pdb
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center.csprojAssemblyReference.cache
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Client.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\MainWindow.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\App.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center_MarkupCompile.cache
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center_MarkupCompile.lref
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Client.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\MainWindow.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center.g.resources
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center.Properties.Resources.resources
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.GenerateResource.cache
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.CoreCompileInputs.cache
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center.exe
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service_Center.pdb
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Technic.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Technic.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Supply_Contract.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Supply_Contract.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Service.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Position.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Position.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Supplier.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Supplier.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Check.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Check.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Staff.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Staff.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Role.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Role.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Authorization.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Authorization.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Request.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Request.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\AuthorizationPage.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\AuthorizationPage.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Authentication.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Authentication.baml
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Registration.g.cs
+C:\Users\Артём\Desktop\Курсовой проект\Курсовой проект\WPF\Service_Center\Service_Center\obj\Debug\Registration.baml
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Service_Center.exe.config
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Service_Center.exe
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Service_Center.pdb
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.csprojAssemblyReference.cache
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Authentication.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\AuthorizationPage.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Check.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Client.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\MainWindow.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Position.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Registration.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Request.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Role.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Staff.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Supplier.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Supply_Contract.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Technic.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\App.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center_MarkupCompile.cache
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center_MarkupCompile.lref
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Authentication.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\AuthorizationPage.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Check.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Client.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\MainWindow.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Position.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Registration.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Request.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Role.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Staff.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Supplier.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Supply_Contract.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Technic.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.g.resources
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.Properties.Resources.resources
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.GenerateResource.cache
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.CoreCompileInputs.cache
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.exe
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.pdb
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Personal_Area.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Personal_Area.baml
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\itextsharp.dll
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Core.dll
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Platform.dll
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\itextsharp.xml
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Core.pdb
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Core.xml
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\WPF_KP\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\XamlC.stamp
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.CopyComplete
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Settings.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Settings.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\BackGround.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\BackGround.baml
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Connection_Form.g.cs
+D:\WPF_KP\Service_Center\Service_Center\obj\Debug\Connection_Form.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.csprojAssemblyReference.cache
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Authentication.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\AuthorizationPage.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\BackGround.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Check.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Client.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Connection_Form.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\MainWindow.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Personal_Area.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Position.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Registration.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Request.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Role.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Settings.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Staff.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Supplier.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Supply_Contract.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Technic.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\App.g.cs
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center_MarkupCompile.cache
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center_MarkupCompile.lref
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.exe
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.pdb
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Service_Center.exe.config
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Service_Center.exe
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Service_Center.pdb
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\itextsharp.dll
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\itextsharp.xml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Authentication.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\AuthorizationPage.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\BackGround.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Check.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Client.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Connection_Form.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\MainWindow.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Personal_Area.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Position.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Registration.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Request.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Role.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Settings.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Staff.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Supplier.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Supply_Contract.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Technic.baml
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.g.resources
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.Properties.Resources.resources
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.GenerateResource.cache
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.CoreCompileInputs.cache
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\XamlC.stamp
+C:\Users\alekseenko\Documents\3 курс\Разработка, внедрение и адаптация ПО ОН\kursovoi_proekt_rviapon\Service_Center\Service_Center\obj\Debug\Service_Center.csproj.CopyComplete

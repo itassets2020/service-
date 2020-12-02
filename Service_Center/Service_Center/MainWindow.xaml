@@ -1,0 +1,58 @@
+﻿<Window x:Class="Service_Center.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Главное меню" Height="600" Width="800" Background="Tan" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Label Name="lbl_Menu" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Content="Главное меню" HorizontalContentAlignment="Center" FontSize="24" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="10"/>
+        <Label Name="lbl_Otdel_1" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Content="|Отдел обслуживания клиентов|" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Label Name="lbl_Otdel_1_1" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="|Технический отдел|" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center" FontFamily="Tahoma"/>
+
+        <Label Name="lbl_Otdel_2" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Content="|Отдел закупок|" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Label Name="lbl_Otdel" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" Content="|Административные таблицы|" HorizontalContentAlignment="Center" FontSize="16" VerticalAlignment="Center" FontFamily="Tahoma"/>
+
+
+
+        <Button ToolTip="Переход в таблицу Клиенты" Name="bt_Client_Open" Content= "Клиенты" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Height="30" Click="Bt_Client_Open_Click" FontFamily="Tahoma" Width="230"/>
+        <Button ToolTip="Переход в таблицу Техника" Name="bt_Technic_Open" Content= "Техника" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Height="30" Click="Bt_Technic_Open_Click" FontFamily="Tahoma" Width="230"/>
+        <Button ToolTip="Переход в таблицу Договоры поставки" Name="bt_Supply_Contract_Open" Content= "Договоры поставки" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Click="Bt_Supply_Contract_Open_Click" Width="230"/>
+        <Button ToolTip="Переход в таблицу Услуги" Name="bt_Service_Open" Content= "Услуги" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Click="Bt_Service_Open_Click" Width="230"/>
+        <Button ToolTip="Переход в таблицу Должности" Name="bt_Position_Open" Content= "Должности" Grid.Column="4" Grid.Row="3" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Click="Bt_Position_Open_Click" Width="230"/>
+        <Button ToolTip="Переход в таблицу Поставщики" Name="bt_Supplier_Open" Content= "Поставщики" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Click="Bt_Supplier_Open_Click" Width="230"/>
+        <Button ToolTip="Переход в таблицу Товарные чеки" Name="bt_Check_Open" Content= "Товарные чеки" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Click="Bt_Check_Open_Click" Width="230"/>
+        <Button ToolTip="Переход в таблицу Сотрудники" Name="bt_Staff_Open" Content= "Сотрудники" Grid.Column="4" Grid.Row="2" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Width="230" Click="Bt_Staff_Open_Click"/>
+        <Button ToolTip="Переход в таблицу Роли" Name="bt_Role_Open" Content= "Роли" Grid.Column="4" Grid.Row="4" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Width="230" Click="Bt_Role_Open_Click"/>
+        <Button ToolTip="Переход в таблицу Данные дополнительного запроса" Name="bt_Request_Open" Content= "Данные дополнительного запроса" Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Width="230" Click="Bt_Request_Open_Click"/>
+        <Button ToolTip="Выйти из системы" Name="bt_Block" Content= "Заблокировать" Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Width="230" Click="Bt_Block_Click"/>
+        <Button ToolTip="Переход в личный кабинет" Name="bt_Personal_Area" Content= "Личный кабинет" Grid.Column="2" Grid.Row="9" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Width="230" Click="bt_Personal_Area_Click"/>
+        <Button Visibility="Hidden" ToolTip="Настройки" Name="bt_Settings" Content= "Настройка файловой системы" Grid.Column="4" Grid.Row="9" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma" Width="230" Click="bt_Settings_Click"/>
+
+    </Grid>
+</Window>

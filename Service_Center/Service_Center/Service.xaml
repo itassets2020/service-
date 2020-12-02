@@ -1,0 +1,67 @@
+﻿<Window x:Class="Service_Center.Service"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Service_Center"
+        mc:Ignorable="d"
+        Title="Услуги" Height="600" Width="800" Background="Tan" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Label Name="Search_1" Content="Поиск:" Grid.Row="8" FontSize="16" FontFamily="Times New Roman"></Label>
+
+        <Label Name="lbl_Service" Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="3" Content="Услуги" HorizontalContentAlignment="Center" FontSize="24" VerticalAlignment="Center" FontFamily="Tahoma"/>
+        <Image Source="D:\WPF_KP\Service_Center\ico.png" Grid.Column="12"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Name_of_Service" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Content="Название услуги:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox MaxLength="30" FontFamily="Tahoma" Name="tb_Name_of_Service" Background="LightGray" Text="{Binding SelectedItem.Name_of_Service, ElementName=dgService}" Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="3" Height="30" PreviewTextInput="tb_Name_of_Service_PreviewTextInput"/>
+
+        <Label FontFamily="Tahoma" Name="lbl_Price_of_Service" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Content="Цена услуги:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <TextBox MaxLength="32" FontFamily="Tahoma" Name="tb_Price_of_Service" Background="LightGray" Text="{Binding SelectedItem.Price_of_Service, ElementName=dgService}" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3" Height="30" PreviewTextInput="tb_Price_of_Service_PreviewTextInput"/>
+
+        <Label FontFamily="Thimes New Roman" Name="lbl_Select_Technic" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Content="Выбор техники:" HorizontalContentAlignment="Left" FontSize="14" VerticalAlignment="Center"/>
+        <ComboBox Name="cb_Technic_Info" SelectedValue="{Binding SelectedItem.Technic_ID, ElementName=dgService}" IsReadOnly="True" Grid.Column="4" Grid.Row="7" Grid.ColumnSpan="3" Height="30"></ComboBox>
+
+
+
+        <TextBox Name="tb_Search" Background="LightGray" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Height="30" FontFamily="Tahoma"/>
+        <Button  ToolTip="Добавить" FontFamily="Tahoma" Name="bt_Insert_Service" Content= "Добавить услугу" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Insert_Service_Click"/>
+        <Button ToolTip="Изменить" FontFamily="Tahoma" Name="bt_Update_Service" Content= "Изменить услугу" Grid.Column="5" Grid.Row="9" Grid.ColumnSpan="3" Height="30" Click="bt_Update_Service_Click"/>
+        <Button ToolTip="Удалить" FontFamily="Tahoma" Name="bt_Delete_Service" Content= "Удалить услугу" Grid.Column="10" Grid.Row="9" Grid.ColumnSpan="2" Height="30" Click="bt_Delete_Service_Click"/>
+        <Button ToolTip="Поиск" FontFamily="Tahoma" Name="bt_Search" Content= "Поиск" Grid.Column="5" Grid.Row="8" Grid.ColumnSpan="3" Height="30" Click="bt_Search_Click"/>
+        <Button ToolTip="Сбросить" FontFamily="Tahoma" Name="bt_Cancel" Content= "Сбросить" Grid.Column="10" Grid.Row="8" Grid.ColumnSpan="2" Height="30" Click="bt_Cancel_Click"/>
+
+        <DataGrid Name="dgService" ColumnWidth="auto" AutoGenerateColumns="True" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="11" Grid.RowSpan="4" AutoGeneratingColumn="dgService_AutoGeneratingColumn"/>
+        <Button ToolTip="Вернуться в главное меню" Name="bt_Back" Content= "Главное меню" Grid.Column="5" Grid.Row="10" Grid.ColumnSpan="3" Height="30" Click="Bt_Back_Click"/>
+
+    </Grid>
+</Window>
